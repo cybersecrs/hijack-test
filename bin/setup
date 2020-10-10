@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+  if !command -v notify-send; then
+    sudo apt install notify-send
+  elif !command -v spd-say; then
+    sudo apt install spd-say
+  fi
+
+  bundle install

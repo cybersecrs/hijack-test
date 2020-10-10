@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/hijack-test.rb'
+
+  system("clear")
+  puts "Testing device on clipboard hijackers..."
+
+  unless ARGV[0] == '-s' || ARGV[0] == '--start'
+    HijackTest.new(1).start
+  else
+    while true do HijackTest.new(1).start; sleep(3600); system("clear") end
+  end
+
