@@ -1,4 +1,4 @@
-*This gem is update of CLIT, but name is taken and I chose this one to make it more clear what it to*
+*This gem is update of CLIT, but name is taken and I found this one more understandable about what it does*
 
 # Introduction to Clipboard Hijack Tester
 
@@ -95,5 +95,5 @@ If copied and pasted addresses are not same, you'll receive alarm with sound and
 ---
 ## Contribution
 
-If you like this gem, feel free to share it with your friends, so more people can use it.
+If you like this gem, feel free to share it with your friends, so more people can use it.  
 [cybersecrs.github.io](https://cybersecrs.github.io)
