@@ -1,5 +1,7 @@
 *This gem is update of CLIT, but name is taken and I found this one more understandable about what it does*
 
+[![Gem Version](https://badge.fury.io/rb/hijack-test.svg)](https://badge.fury.io/rb/hijack-test)
+
 # Introduction to Clipboard Hijack Tester
 
 Clipboard is always a good resource to steal data. Passwords and bank accounts were targeted in past,
