@@ -2,12 +2,13 @@
 
 [![Gem Version](https://badge.fury.io/rb/hijack-test.svg)](https://badge.fury.io/rb/hijack-test)
 
-# Introduction to Clipboard Hijack Tester
+# Introduction to Clipboard Hijack Tester  
 
 Clipboard is always a good resource to steal data. Passwords and bank accounts were targeted in past,
 and cryptocurrencies in last few years. This is hard to determine since there's no server
 for communication, it doesn't care about your files, it's only purpose is to wait for you to copy
-BTC address to make a payment, to steal your coins.
+BTC address to make a payment, to steal your coins.  
+
 ---
 # How to Run
 
