@@ -7,8 +7,7 @@
 Clipboard is always a good resource to steal data. Passwords and bank accounts were targeted in past,
 and cryptocurrencies in last few years. This is hard to determine since there's no server
 for communication, it doesn't care about your files, it's only purpose is to wait for you to copy
-BTC address to make a payment, to steal your coins. To keep us all safer, I've created `hijack-test gem`.
-
+BTC address to make a payment, to steal your coins.
 ---
 # How to Run
 
@@ -63,7 +62,7 @@ or
 ruby bin/hit --start
 ```  
 
-To change sleep time, edit number of seconds in *bin/hit* on line 11:
+To change sleep time, edit number of seconds in *bin/hit* on line 12:
 
 ```
 sleep(3600)
@@ -90,7 +89,7 @@ attack was performed by same people.
 ## How To Protect?
         
 Get software that check your clipboard for changes when bitcoin address is copied.
-I didn't found one, so I've created [Hijack-Test](https://www.github.com/cybersecrs/hijack-test).
+I didn't found one, so I've created [Hijack-Test Gem](https://rubygems.org/gems/hijack-test).
 This is in early development stage, but do it's job and test your device for Bitcoin address and E-mail address patterns.
 If copied and pasted addresses are not same, you'll receive alarm with sound and visual notification, and error in terminal window.
 
